@@ -1,0 +1,29 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "roomId",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "roomName",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "roomCapacity",
+            "fieldType": "Integer",
+            "fieldValidateRules": []
+        }
+    ],
+    "changelogDate": "20161023145636",
+    "dto": "no",
+    "service": "serviceClass",
+    "entityTableName": "room",
+    "pagination": "pagination",
+    "microserviceName": "roomfinder",
+    "searchEngine": false
+}
